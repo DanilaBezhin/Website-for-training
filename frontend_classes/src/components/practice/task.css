@@ -1,0 +1,16 @@
+.task p {
+  margin-bottom: 1em;
+  text-indent: 30px;
+  word-spacing: -5px;
+}
+
+.task p span {
+  color: #6932ff;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.task h2 {
+  margin-bottom: 1.3em;
+  text-align: center;
+}

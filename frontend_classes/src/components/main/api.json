@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Learning",
+    "titleRU": "Обучение",
+    "id": "1011",
+    "link": "/learning",
+    "bgImg": "https://i.pinimg.com/564x/55/4e/76/554e7627abd0f651255f66998db91c35.jpg"
+  },
+  {
+    "title": "Tests",
+    "titleRU": "Тесты",
+    "id": "1012",
+    "link": "/tests",
+    "bgImg": "https://i.pinimg.com/564x/8a/88/48/8a88488565acfc920d1071fd6354976f.jpg"
+  },
+  {
+    "title": "Practice",
+    "titleRU": "Практика",
+    "id": "1013",
+    "link": "/practice",
+    "bgImg": "https://i.pinimg.com/564x/04/ec/2d/04ec2d2b27170c8559683ee06f8a2da5.jpg"
+  }
+]

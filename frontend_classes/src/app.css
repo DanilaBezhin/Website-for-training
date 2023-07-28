@@ -1,0 +1,83 @@
+/* font-family: 'Gloock', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+/* font-family: 'Martian Mono', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+:root {
+  --index: calc(1vw + 1vh);
+
+  --black-color: #1a1423fe;
+  --little-black-color: #171120fe;
+  --medium-color: #774c60fe;
+  --little-light-color: #372549fe;
+  --light-color: #eacdc2fe;
+
+  --s-font-size: 12px;
+  --m-font-size: 16px;
+  --xl-font-size: 32px;
+}
+
+html {
+  position: relative;
+  left: 0px;
+  right: 0px;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Martian Mono', monospace;
+  height: 3000px;
+  font-size: var(--m-font-size);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body.no_preloader {
+  overflow-y: auto;
+  position: relative;
+  left: 0px;
+  right: 0px;
+}
+
+.container {
+  max-width: calc(var(--index) * 40);
+  padding: 0 calc(var(--index) * 1.2);
+  margin: 0 auto;
+}
+
+.App__wrapper {
+  background-image: url('https://img1.akspic.ru/crops/5/0/1/6/6/166105/166105-kiberpank-anime-retro_pank_anime_devushka_lezhit_na_krovati-purpur-fioletovyj-3840x2160.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  will-change: background-position;
+}

@@ -16,6 +16,6 @@ among which:
 
 7. Several interesting elements in the layout, such as a gradient, card rotation animation, and a beautiful search
 
-8 Modal window with a small registration opening and some animation on the site
+8. Modal window with a small registration opening and some animation on the site
 
 In the end, I want to say that I am very pleased with this project, it allowed me to strengthen my knowledge, and allowed me to experiment with new technologies.
